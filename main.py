@@ -3,6 +3,9 @@
 import sys
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import platform
 
 class Example(QMainWindow):
     def __init__(self):
